@@ -11,7 +11,28 @@
   ],
   "author": "Ying Hang Eng",
   "license": "MIT",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "cpp",
+    "app.plugin.js",
+    "*.podspec",
+    "!lib/typescript/example",
+    "!ios/build",
+    "!android/build",
+    "!android/gradle",
+    "!android/gradlew",
+    "!android/gradlew.bat",
+    "!android/local.properties",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__",
+    "!**/.*"
+  ],
   "devDependencies": {
+    "@expo/config-plugins": "^7.2.5",
     "react-native": ">0.60"
   },
   "repository": {
